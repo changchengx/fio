@@ -1,0 +1,14 @@
+Description: Adapt manpage path to Debian.
+Author: Martin Steigerwald <martin.steigerwald@proact.de>
+
+--- a/Makefile
++++ b/Makefile
+@@ -349,7 +349,7 @@
+ mandir = /usr/share/man
+ sharedir = /usr/share/fio
+ else
+-mandir = $(prefix)/man
++mandir = $(prefix)/share/man
+ sharedir = $(prefix)/share/fio
+ endif
+ 
