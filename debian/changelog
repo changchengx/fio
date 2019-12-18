@@ -1,3 +1,11 @@
+fio (3.17-1) unstable; urgency=medium
+
+  * Upgrade fio from 3.16 to 3.17
+  * commit 08ce9dc20b8a4e55db7af6d869ddfa49b4a02d03 (tag: fio-3.17)
+  *     Fio 3.17
+
+ -- Changcheng Liu <changcheng.liu@aliyun.com>  Wed, 18 Dec 2019 09:18:40 +0800
+
 fio (3.16-1) unstable; urgency=medium
 
   [ Sven Hoexter ]
